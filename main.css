@@ -36,9 +36,13 @@
 
 .container {
     margin: 0 11rem;
-    padding: 2rem 4rem;
+    padding: 2rem;
+    /* padding: 2rem 4rem; */
     box-shadow: -3px 3px 5px chartreuse;
+
+
 }
+
 
 .container summary {
     padding: 1rem;
@@ -63,12 +67,26 @@ figure img {
     margin-left: auto;
     margin-right: auto;
 }
-footer{
+
+footer {
+    background-color:rgb(30, 59, 0);
+    color: wheat;
+}
+footer a{
+    color: wheat;
+    
+}
+.head-footer {
+    padding: 1rem;
+    text-align: center;
+}
+
+
+.foot {
     display: flex;
+    
 }
-footer div{
-    padding: 2rem 5%;
-}
-time{
-    justify-content: center;
+
+.foot div{
+    padding:1rem 5%;
 }
