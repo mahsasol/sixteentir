@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-nav {
+    background-color: aqua;
+}
+
+.navbar {
+    background-color: chartreuse;
+    padding: 2rem;
+    padding-left: 15rem;
+    margin: 0;
+    box-shadow: -3px 4px 3px gray;
+
+}
+
+.navbar a {
+    color: rgb(117, 117, 117);
+
+    text-decoration: none;
+    padding-right: 4rem;
+}
+
+.navbar span {
+    padding: .5rem;
+    transition: 1s;
+}
+
+.navbar span:hover {
+    color: black;
+
+}
+
+.container {
+    margin: 0 11rem;
+    padding: 2rem 4rem;
+    box-shadow: -3px 3px 5px chartreuse;
+}
+
+.container summary {
+    padding: 1rem;
+}
+
+details {
+    padding-bottom: 1rem;
+}
+
+figure {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    /* وسط‌چینی افقی */
+    align-items: center;
+    /* وسط‌چینی عمودی */
+    height: 100px;
+}
+
+figure img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    display: flex;
+}
+footer div{
+    padding: 2rem 5%;
+}
+time{
+    justify-content: center;
+}
